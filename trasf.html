@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trasformar</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid rebeccapurple;
+        }
+        .outer{
+            background-color: gray;
+        
+        }
+        .inaer{
+            background-color: greenyellow;
+            transform:scale(.75) rotate(120deg)
+        }
+           </style>
+</head>
+<body>
+    <div class="box outer">
+        <div class="box inaer">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inaer">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inaer">box-3</div>
+    </div>
+</body>
+</html>
